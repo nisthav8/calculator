@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+ <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+  <div id="div1">
+    <h2>CALCULATOR</h2>
+    <hr/>
+    <label for="first">
+      Give number 1:
+      <input id="first" />
+    </label>
+    <br />
+    <br />
+    <label for="second">
+      Give number 2:
+      <input id="second" />
+    </label>
+    <br />
+    <br />
+    <label for="third">
+      Give operation:
+     <select id="third" name="third">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+     </select>
+    </label>
+<br/>
+    <button onclick="func1();">
+      Answer
+    </button>
+    <br/>
+    <br/>
+    <div id="fourth"></div>
+  </div>
+
+  
+<script src="Calculator.js"></script>
+</body>
